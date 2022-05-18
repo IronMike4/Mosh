@@ -1,11 +1,5 @@
-let selectedColors = ['red','blue'];
+function greet(name, lastName){
+    console.log('Hello ' + name + ' ' + lastName);
+}
 
-selectedColors[2] = 'green';
-selectedColors[3] = 4;
-// console.log(selectedColors);
-
-// console.log(selectedColors[3]);
-
-console.log(selectedColors.length);
-
-
+greet('Mike', 'Mahachi');
