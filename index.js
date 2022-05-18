@@ -1,2 +1,5 @@
-  // This is my first JavaScript code!
-  console.log('Hello World');
+let name  = 'Mike';
+console.log(name);
+
+let firstName = 'Mike';
+let lastName = 'Mahachi';
