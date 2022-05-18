@@ -1,11 +1,11 @@
-let person = { 
-    name: 'Mike',
-    age: 30
-};
+let selectedColors = ['red','blue'];
 
-// Dot Notation
-person.name = 'John';
+selectedColors[2] = 'green';
+selectedColors[3] = 4;
+// console.log(selectedColors);
 
-// Bracket Notation
-person['name'] = 'Mary';
-console.log(person.name);
+// console.log(selectedColors[3]);
+
+console.log(selectedColors.length);
+
+
